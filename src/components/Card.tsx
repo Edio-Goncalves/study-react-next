@@ -7,7 +7,7 @@ interface CardProps {
 
 export default function Card(props: CardProps) {
   return (
-    <div className="card">
+    <div className={`card ${props.desconto <= 0 && "border-red"}`}>
       <div>Produto:{props.produto}</div>
       <div>Valor: R$ {props.valor.toFixed(2)}</div>
       {props.desconto > 0 && (

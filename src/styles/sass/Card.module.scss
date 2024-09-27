@@ -1,5 +1,6 @@
 .card {
-  max-width: 250px;
+  max-width: 270px;
+  min-width: 230px;
   min-height: 190px;
   padding: 20px;
   display: flex;
@@ -10,4 +11,7 @@
   border: 1px solid #333;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #33333323;
+  &.border-red {
+    border: 1px solid #ff2f2f;
+  }
 }
