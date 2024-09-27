@@ -21,7 +21,7 @@ export default function Home() {
           <Card
             produto={"Teclado"}
             valor={109.9}
-            desconto={0.1}
+            desconto={0}
             funcao={calcDesc}
           />
           <Card
