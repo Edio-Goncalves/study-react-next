@@ -1,0 +1,37 @@
+footer {
+  border-top: 2px solid #333;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .footer_content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    > :first-child a {
+      padding: 10px;
+      font-size: 30px;
+      font-weight: 800;
+    }
+    > :nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      a {
+        margin-bottom: 5px;
+        font-size: 14px;
+        min-width: 50px;
+      }
+    }
+    > :nth-child(3) {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  > :last-child {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+  }
+}

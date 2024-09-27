@@ -1,11 +1,16 @@
-import styles from "@/styles/Home.module.css";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className={styles.wrapper}>
-      <main className={styles.main}>
-        <div>HELLO</div>
+    <div>
+      <Header />
+      <main>
+        <div className="main wrapper">
+          <div> HELLO</div>
+        </div>
       </main>
+      <Footer />
     </div>
   );
 }
