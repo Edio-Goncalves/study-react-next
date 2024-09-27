@@ -1,1 +1,1 @@
-main{display:flex;justify-content:center;min-height:600px;padding:20px}main .main{display:flex;align-items:center;justify-content:center;gap:20px}
+.first_section,.second_section{display:flex;flex-direction:column;align-items:center;padding:20px;margin-bottom:50px;margin-top:50px;gap:30px}.first_section h2,.second_section h2{text-transform:uppercase}.first_section .first,.first_section .second,.second_section .first,.second_section .second{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:20px}.second_section{border-top:1px solid rgba(51,51,51,.397)}
