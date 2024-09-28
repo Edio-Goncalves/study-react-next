@@ -1,20 +1,25 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header>
       <div className="header wrapper">
         <div>
-          <a href="">LOGO</a>
+          <a href="/">LOGO</a>
         </div>
         <div>
           <ul>
             <li>
-              <a href="">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="">Abaut</a>
+              <Link href="/sobre">Sobre</Link>
             </li>
             <li>
-              <a href="">Contact</a>
+              <Link href="/produtos">Produtos</Link>
+            </li>
+            <li>
+              <Link href="/contato">Contato</Link>
             </li>
           </ul>
         </div>
