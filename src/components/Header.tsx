@@ -7,7 +7,7 @@ export default function Header() {
         <div>
           <a href="/">LOGO</a>
         </div>
-        <div>
+        <nav>
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -22,7 +22,7 @@ export default function Header() {
               <Link href="/contato">Contato</Link>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
   );
