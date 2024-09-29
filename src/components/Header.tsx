@@ -16,7 +16,10 @@ export default function Header() {
               <Link href="/produtos">Produtos</Link>
             </li>
             <li>
-              <Link href="/hook-study">hook-study</Link>
+              <Link href="/hook-usestate-study">usestate-study</Link>
+            </li>
+            <li>
+              <Link href="/hook-useeffect-study">useeffect-study</Link>
             </li>
             <li>
               <Link href="/inputs-study">inputs-study</Link>
